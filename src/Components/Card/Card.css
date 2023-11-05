@@ -1,0 +1,59 @@
+.btn{
+    margin: 50px;
+}
+.btn button {
+background-color: black;
+color: white;
+width: 130px;
+height: 40px;
+font-size: 16px;
+font-weight: 700;
+border: 1px solid;
+border-radius: 12px;
+}
+
+.card {
+        margin: 10px;
+        width: 20%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border-radius: 40px;
+        box-shadow: 7px 7px black;
+    
+}
+.name{
+    
+        font-family: cursive;
+        font-weight: 900;
+    
+}
+.email {
+    font-family: cursive;
+    font-weight: 800;
+}
+.btn-group{
+    display: flex;
+}
+.btn-edit button{
+    background-color: yellow;
+    color: black;
+    border-radius: 14px;
+    width: 80px;
+    height: 30px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-style: italic;
+}
+.btn-delete button{
+    background-color: red;
+    color: black;
+    border-radius: 14px;
+    width: 80px;
+    height: 30px;
+    font-weight: 700;
+    font-style: italic;
+}

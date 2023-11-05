@@ -1,0 +1,29 @@
+.contanier-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+.menu{
+    margin-right: 50px;
+}
+.menu ul{
+    display: flex;
+    margin-right: 30px;
+}
+.logo{
+    color: white;
+    margin-left: 80px;
+}
+
+.menu ul li a{
+    text-decoration-line: none;
+    margin: 15px;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+.menu ul li{
+    list-style: none;
+}
